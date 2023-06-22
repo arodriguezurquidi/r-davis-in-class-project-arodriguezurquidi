@@ -470,6 +470,8 @@ corrplot(cor_subset, method = "number", type = "full", tl.cex = 0.8)
 selected_variables <- c("nsc", "starch", "TleafEB", "VPcham", "SVPcham", "airt", "relhum", "soiltemp")
 subset_data3 <- subset_data2[, selected_variables]
 
+####BORRA ESTA LINEA, SOLO ERA PARA PROBAR GIT!
+
 ### Correlation to numerical Variables (only plots) NSCs ###----
 sp1 <- ggscatterstats(
   data = subset_data3,
